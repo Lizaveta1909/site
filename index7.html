@@ -14,44 +14,128 @@
     <div class="wrapper">
         <header>
             <div class="logo"><img src="https://cdn.finanso.com/netcat_files/2022/3/phpsyauvz.jpg"alt="Логотип" class="logoimg" ></div>
-            <div class="title">Валовий внутрішній продукт </div>
+            <div class="title">Валовий внутрішній продукт</div>
         </header>
         <nav>
             <ul class="list">
                 <li><a href="index4.html">Головна</a></li>
-                <li><a href="index5.html">Як ВВП впливає на рівень життя?</a></li>
-                <li><a href="index6.html">ВВП України</a></li>
-                <li><a href="index7.html">Калькулятор</a></li>
+                <li><a href="index5.html">ВВП України в умовах війни</a></li>
+                <li><a href="index6.html">Калькулятор</a></li>
+                <li><a href="index7.html">Перевірка знань</a></li>
             </ul>
         </nav>
         <main>
             <aside class="left">
-                <p class="answer">Валовий внутрішній продукт (ВВП) - це грошовий вимір ринкової вартості всіх кінцевих товарів та послуг, вироблених за певний період часу.</p> </aside>
-            <article class="right">
-                <h1 class="h">ВВП на душу населення</h1>
-                <p class="answer">Власне ВВП не є об'єктивною оцінкою добробуту громадян. Наприклад, в двох країнах загальний ВВП може бути однаковим. Але при цьому більш високий рівень життя буде в країні з меншим населенням. З цієї причини реально відображає ситуацію саме ВВП на душу населення. Розраховується цей показник за максимально простою формулою: Загальний ВВП розділити на загальну кількість громадян.</p>
-        
-        
-        
-                <div class="wrapper"> 
-                    <h3>Введіть суму ВВП (млн дол)</h3>
-                <input type="text" id = "input_a">
-                    <h3>Введіть кількість населення країни (млн осіб)</h3>
-                <input type="text" id = "input_b"> 
-               <p> <button id="btn">Action</button> </p>
-               <input type="text" id = "input_c">
-        </div>
-        <script>
-            function fnc(){
-    let a=parseInt(input_a.value);
-    let b=parseInt(input_b.value);
-    let c=a/b;
-    input_c.value=c;
-    console.log(c)
-            }
-            btn.addEventListener("click",fnc);
-            </script>  
-            
+                <p class="answer">  Валовий внутрішній продукт (ВВП) вимірює вартість продукції та
+                    послуг, вироблених на території даної країни за визначений період, незалежно
+                    від того, знаходяться чинники виробництва у власності громадян даної країни
+                    або належать іноземцям. За допомогою нього можна простежити динаміку
+                    розвитку економіки країни та порівняти її досягнення з іншими державами.</p> </aside>
+                    <article class="right">
+                        <h1 class="question">Питання №1: Що показує номінальний ВВП?</h1>
+                        <ol type="A">
+                        <li>Як змінилися ціни</li>
+                        <li>Як змінився обсяг продукції</li>
+                        <li>Усі вище перераховані варіанти є правильними</li>
+                        </ol> 
+                        <table class="table">
+                        <tr class ="article">
+                        <td><label for="a1">A</label></td>
+                        <td><label for="a2">B</label></td>
+                        <td><label for="a3">C</label></td>
+                        </tr>
+                        <tr>
+                        <td><input type="radio" name="question1" id="a1"></td>
+                        <td><input type="radio" name="question1" id="a2"></td>
+                        <td><input type="radio" name="question1" id="a3"></td>
+                        </tr>
+                    </table>
+                        <button class="button" id="btn1">Відповідь</button>
+
+                        <h1 class="question">Питання №2: Що називається дефлятором ВВП?</h1>
+                        <ol type="A">
+                        <li>Сума реального та номінального ВВП</li>
+                        <li>Відношення реального ВВП до номінального ВВП</li>
+                        <li>Відношення номінального ВВП до реального ВВП</li>
+                        </ol> 
+                        <table class="table">
+                        <tr class ="article">
+                        <td><label for="b1">A</label></td>
+                        <td><label for="b2">B</label></td>
+                        <td><label for="b3">C</label></td>
+                        </tr>
+                        <tr>
+                        <td><input type="radio" name="question1" id="b1"></td>
+                        <td><input type="radio" name="question1" id="b2"></td>
+                        <td><input type="radio" name="question1" id="b3"></td>
+                        </tr>
+                    </table>
+                        <button class="button" id="btn2">Відповідь</button>
+                        
+                        <h1 class="question">Питання №3: Що показує дефлятор ВВП?</h1>
+                        <ol type="A">
+                        <li>На яку величину виріс об'єм виробленої продукції</li>
+                        <li>На яку величину виріс загальний рівень цін в економіці</li>
+                        <li>На яку величину виріс рівень інфляції</li>
+                        </ol> 
+                        <table class="table">
+                        <tr class ="article">
+                        <td><label for="c1">A</label></td>
+                        <td><label for="c2">B</label></td>
+                        <td><label for="c3">C</label></td>
+                        </tr>
+                        <tr>
+                        <td><input type="radio" name="question1" id="c1"></td>
+                        <td><input type="radio" name="question1" id="c2"></td>
+                        <td><input type="radio" name="question1" id="c3"></td>
+                        </tr>
+                    </table>
+                        <button class="button" id="btn3">Відповідь</button>
+                        
+                        <h1 class="question">Питання №4: Як розраховується ВВП за допомогою розподільчого методу?</h1>
+                        <ol type="A">
+                        <li>За доходами</li>
+                        <li>За витратами</li>
+                        <li>За виробленою продукцією</li>
+                        </ol> 
+                        <table class="table">
+                        <tr class ="article">
+                        <td><label for="d1">A</label></td>
+                        <td><label for="d2">B</label></td>
+                        <td><label for="d3">C</label></td>
+                        </tr>
+                        <tr>
+                        <td><input type="radio" name="question1" id="d1"></td>
+                        <td><input type="radio" name="question1" id="d2"></td>
+                        <td><input type="radio" name="question1" id="d3"></td>
+                        </tr>
+                    </table>
+                        <button class="button" id="btn4">Відповідь</button>
+
+                        <h1 class="question">Питання №5: В якій з країн рівень життя населення буде вищим: країна А (ВВП - 110 млрд гр. од., населення - 50 млн чоловік), країна В (ВВП - 50 млрд гр. од., населення - 10 млн чоловік), країна С (ВВП - 150 млрд гр. од., населення - 55 млн чоловік),  </h1>
+                        <ol type="A">
+                        <li>В країні А</li>
+                        <li>В країні В</li>
+                        <li>В країні С</li>
+                        </ol> 
+                        <table class="table">
+                        <tr class ="article">
+                        <td><label for="e1">A</label></td>
+                        <td><label for="e2">B</label></td>
+                        <td><label for="e3">C</label></td>
+                        </tr>
+                        <tr>
+                        <td><input type="radio" name="question1" id="e1"></td>
+                        <td><input type="radio" name="question1" id="e2"></td>
+                        <td><input type="radio" name="question1" id="e3"></td>
+                        </tr>
+                    </table>
+                        <button class="button" id="btn5">Відповідь</button>
+                        <script src="js/js.js"></script>
+
+
+
+
             
             </article>
         </main>
@@ -61,4 +145,3 @@
 </body>
 
 </html>
-  
